@@ -21,10 +21,11 @@ export default function Login() {
   };
   return (
     <Container>
-      <img
+     <img
         src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Black.png"
         alt="spotify"
       />
+
       <button onClick={handleClick}>Connect Spotify</button>
     </Container>
   );
@@ -38,7 +39,7 @@ export default function Login() {
    flex-direction: column;
    height: 100vh;
    width: 100vw;
-   background-color: #1db954;
+   background-color: #1e90ff;
    gap: 5rem;
    img {
      height: 20vh;
@@ -47,9 +48,10 @@ export default function Login() {
      padding: 1rem 5rem;
      border-radius: 5rem;
      background-color: black;
-     color: #49f585;
+     color: #1e90ff;
      border: none;
      font-size: 1.4rem;
      cursor: pointer;
    }
+
  `;
